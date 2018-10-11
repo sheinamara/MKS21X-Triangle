@@ -33,7 +33,7 @@ public class Triangle{
   }
 
   public String toString(){
-    return "Triangle : A" + v1 + "B" + v2 + "C" + v3;
+    return "Triangle : A " + v1 + ", B " + v2 + ", C " + v3;
   }
 
   public void setVertex(int index, Point newP){

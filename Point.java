@@ -19,7 +19,7 @@ public class Point{
     return y;
   }
 
-  public double distance(Point first, Point second){
+  public static double distance(Point first, Point second){
     double xMinus = second.getX() - first.getX();
     double yMinus = second.getY() - first.getY();
     return Math.abs(Math.sqrt((xMinus * xMinus) + (yMinus * yMinus)));
